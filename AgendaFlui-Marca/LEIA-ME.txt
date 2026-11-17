@@ -1,0 +1,10 @@
+AGENDA FLUI — pacote da marca (v1, nov/2026)
+
+Agenda-Flui-Manual-da-Marca.pdf   Comece por aqui: ideia, logo, cores, fontes, voz e o site.
+logos/svg                          Logos vetoriais (site, Figma, impressão).
+logos/png                          Logos com fundo transparente (@2x e @4x) para redes e apresentações.
+fontes/                            Bricolage Grotesque e Figtree (gratuitas, Google Fonts). Instale antes de abrir os SVG.
+design-tokens/                     Cores, tamanhos de texto, espaçamentos e cantos em JSON, para quem for programar o site.
+site/                              Landing page em HTML (abra no navegador) e imagens dela no computador e no celular.
+
+Obs.: no SVG o nome "agenda flui" está como texto; converta em curvas no Figma/Illustrator antes de mandar para gráfica.

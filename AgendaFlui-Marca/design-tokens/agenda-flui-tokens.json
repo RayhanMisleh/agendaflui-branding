@@ -1,0 +1,46 @@
+{"name":"Agenda Flui","version":1,
+"color":{"themes":[{"id":"light","name":"Claro"},{"id":"dark","name":"Escuro"}],
+"tokens":[
+{"name":"brand","value":{"light":"#0B6E66","dark":"#3CC4B4"},"usage":"Água — cor-assinatura. Botões primários, links, símbolo, estados ativos. Texto em brand sobre ground passa 4.5:1 nos dois temas."},
+{"name":"brand-strong","value":{"light":"#08534D","dark":"#6EDBCD"},"usage":"Hover/pressionado dos elementos brand."},
+{"name":"brand-tint","value":{"light":"#D7EFEB","dark":"#12403B"},"usage":"Fundo de horários livres, chips selecionados, blocos de destaque suaves. Texto em ink por cima."},
+{"name":"on-brand","value":{"light":"#FFFFFF","dark":"#062421"},"usage":"Texto e ícones sobre brand."},
+{"name":"caramelo","value":{"light":"#F2A93B","dark":"#F5B85A"},"usage":"Caramelo — acento quente (o vira-lata caramelo). Ponto do símbolo, selo 'pet', marcações de horário confirmado, destaques de marketing. Nunca como cor de texto; texto sobre ele sempre em ink."},
+{"name":"caramelo-tint","value":{"light":"#FCEBD0","dark":"#4A3514"},"usage":"Fundo de avisos amigáveis e cards de lembrete."},
+{"name":"ground","value":{"light":"#F3F8F6","dark":"#0C1A18"},"usage":"Espuma — fundo de página."},
+{"name":"surface","value":{"light":"#FFFFFF","dark":"#13241F"},"usage":"Cards, painéis, modais sobre ground."},
+{"name":"ink","value":{"light":"#0F2A27","dark":"#E8F2EF"},"usage":"Texto principal sobre ground, surface, brand-tint e caramelo."},
+{"name":"ink-muted","value":{"light":"#4A615D","dark":"#9DB3AE"},"usage":"Texto secundário, legendas, metadados (≥4.5:1 sobre ground e surface)."},
+{"name":"line","value":{"light":"#D3E2DE","dark":"#24403A"},"usage":"Bordas de cards, divisórias e grade da agenda."},
+{"name":"success","value":{"light":"#1E8A4C","dark":"#4CC47E"},"usage":"Agendamento confirmado, pagamento ok. Só estado."},
+{"name":"danger","value":{"light":"#C8412F","dark":"#F07A68"},"usage":"Cancelamento, falta (no-show), erro. Só estado."}
+]},
+"type":{"fonts":[],
+"families":{"display":"\"Bricolage Grotesque\", Figtree, system-ui, sans-serif","sans":"Figtree, system-ui, sans-serif"},
+"groups":[
+{"name":"Títulos","family":"display","styles":[
+{"name":"display","fontSize":"64px","lineHeight":"64px","fontWeight":700,"letterSpacing":"-0.03em","sample":"Banho marcado, tutor tranquilo.","usage":"Hero do site e capas."},
+{"name":"h1","fontSize":"44px","lineHeight":"48px","fontWeight":700,"letterSpacing":"-0.02em","sample":"Sua agenda de banho e tosa"},
+{"name":"h2","fontSize":"32px","lineHeight":"38px","fontWeight":700,"letterSpacing":"-0.015em","sample":"Como funciona"},
+{"name":"h3","fontSize":"22px","lineHeight":"28px","fontWeight":600,"sample":"Lembrete no WhatsApp"}]},
+{"name":"Texto","family":"sans","styles":[
+{"name":"body-lg","fontSize":"19px","lineHeight":"30px","fontWeight":400,"sample":"O tutor escolhe o horário em segundos, e o pet shop recebe tudo organizado."},
+{"name":"body","fontSize":"16px","lineHeight":"25px","fontWeight":400,"sample":"Thor · Shih-tzu · banho + hidratação"},
+{"name":"small","fontSize":"14px","lineHeight":"20px","fontWeight":500,"sample":"Hoje, 14h30 · 1h"},
+{"name":"button","fontSize":"16px","lineHeight":"20px","fontWeight":700,"sample":"Agendar banho"},
+{"name":"time","fontSize":"15px","lineHeight":"20px","fontWeight":600,"sample":"09:00  09:30  10:00","usage":"Horários da agenda: use font-variant-numeric: tabular-nums."}]}]},
+"spacing":{"tokens":[
+{"name":"space-1","value":"4px","usage":"Ícone ↔ texto."},
+{"name":"space-2","value":"8px","usage":"Entre chips de horário."},
+{"name":"space-3","value":"16px","usage":"Padding de card, gutter mobile."},
+{"name":"space-4","value":"24px","usage":"Entre blocos dentro de uma seção."},
+{"name":"space-5","value":"40px","usage":"Entre grupos maiores."},
+{"name":"space-6","value":"72px","usage":"Entre seções do site."}]},
+"radius":{"tokens":[
+{"name":"radius-sm","value":"10px","usage":"Inputs, chips de horário."},
+{"name":"radius-lg","value":"16px","usage":"Cards e o próprio símbolo."},
+{"name":"radius-xl","value":"28px","usage":"Blocos de destaque, mockups de celular."},
+{"name":"radius-pill","value":"999px","usage":"Botões, selos (ex.: selo 'pet')."}]},
+"shadow":{"tokens":[
+{"name":"shadow-pop","value":{"light":"0 12px 32px -12px rgba(11,110,102,0.35)","dark":"0 12px 32px -12px rgba(0,0,0,0.6)"},"usage":"Só para o elemento que 'flutua' (o celular do hero, um modal). Cards comuns não têm sombra — usam line."}]}
+}
